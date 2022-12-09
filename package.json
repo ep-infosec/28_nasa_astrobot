@@ -1,0 +1,29 @@
+{
+  "name": "astrobot",
+  "version": "1.0.0",
+  "description": "Bot to query and display APOD images.",
+  "main": "astroBot.js",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "express": "^4.13.x",
+    "request": "^2.60.0",
+    "slack-client": "^1.4.1",
+    "strip-indent": "^2.0.0",
+    "superagent": ">=3.7.0"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node astroBot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apod",
+    "bot",
+    "astro"
+  ],
+  "author": "William Baker",
+  "license": "Apache 2.0"
+}
